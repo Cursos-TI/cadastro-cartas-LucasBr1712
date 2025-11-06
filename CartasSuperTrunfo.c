@@ -1,15 +1,80 @@
-#include <stdio.h>
+#include <stdio.h> 
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das cartas
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
+   int main() {
 
-int main() {
-  // Área para definição das variáveis para armazenar as propriedades das cidades
+    //Carta 1//
 
-  // Área para entrada de dados
+    char Estado1;
+    char Codigocarta1[4];
+    char Nomecidade1;
+    int Populacao1;
+    float Area1;
+    float Pib1;
+    int Pontosturisticos1;
 
-  // Área para exibição dos dados da cidade
+    //Carta 2//
 
-return 0;
-} 
+    char Estado2;
+    char Codigocarta2[4]; 
+    char Nomecidade2; 
+    int Populacao2; 
+    float Area2; 
+    float Pib2; 
+    int Pontosturisticos2;
+
+
+    //Inserção de Dados Carta 1//
+
+    printf("Cadastro da Carta 1 \n");
+
+    printf("Insira o Nome do Estado: ");
+    scanf("%s", &Estado1);
+
+    printf("Insira o Codigo da carta: ");
+    scanf("%s", &Codigocarta1);
+
+    printf("Insira o Nome da Cidade: ");
+    scanf("%s", &Nomecidade1);
+
+    printf("Insira a Populacao: ");
+    scanf("%d", &Populacao1);
+
+    printf("Insira a Area em km: ");
+    scanf("%f", &Area1);
+
+    printf("Insira o PIB: ");
+    scanf("%f", &Pib1);
+
+    printf("Insira a quantidade de pontos Turisticos: ");
+    scanf("%d", &Pontosturisticos1);
+
+    //Inserção de Dados Carta 2//
+
+    printf("Cadastro da Carta 2 \n");
+
+    printf("Insira o Nome do Estado: ");
+    scanf("%s", &Estado2);
+
+    printf("Insira o Codigo da carta: ");
+    scanf("%s", &Codigocarta2);
+
+    printf("Insira o Nome da Cidade: ");
+    scanf("%s", &Nomecidade2);
+
+    printf("Insira a Populacao: ");
+    scanf("%d", &Populacao2);
+
+    printf("Insira a Area em km: ");
+    scanf("%f", &Area2);
+
+    printf("Insira o PIB: ");
+    scanf("%f", &Pib2);
+
+    printf("Insira a quantidade de pontos Turisticos: ");
+    scanf("%d", &Pontosturisticos2);
+
+
+
+    return 0;
+
+   }
