@@ -7,7 +7,7 @@
     char Estado1;
     char Codigocarta1[4];
     char Nomecidade1;
-    int Populacao1;
+    float Populacao1;
     float Area1;
     float Pib1;
     int Pontosturisticos1;
@@ -17,7 +17,7 @@
     char Estado2;
     char Codigocarta2[4]; 
     char Nomecidade2; 
-    int Populacao2; 
+    float Populacao2; 
     float Area2; 
     float Pib2; 
     int Pontosturisticos2;
@@ -37,7 +37,7 @@
     scanf("%s", &Nomecidade1);
 
     printf("Insira a Populacao: ");
-    scanf("%d", &Populacao1);
+    scanf("%f", &Populacao1);
 
     printf("Insira a Area em km: ");
     scanf("%f", &Area1);
@@ -47,6 +47,10 @@
 
     printf("Insira a quantidade de pontos Turisticos: ");
     scanf("%d", &Pontosturisticos1);
+
+    printf("Densidade Populacional: %.2f hab/km^2 \n", Populacao1 / Area1); // Densidade Populacional = População Dividida pela Área
+
+    printf("PIB Per Capita: R$ %.2f \n", Pib1 / Populacao1);
 
     //Inserção de Dados Carta 2//
 
@@ -62,7 +66,7 @@
     scanf("%s", &Nomecidade2);
 
     printf("Insira a Populacao: ");
-    scanf("%d", &Populacao2);
+    scanf("%f", &Populacao2);
 
     printf("Insira a Area em km: ");
     scanf("%f", &Area2);
@@ -72,6 +76,10 @@
 
     printf("Insira a quantidade de pontos Turisticos: ");
     scanf("%d", &Pontosturisticos2);
+
+    printf("Densidade Populacional: %2.f hab/km^2\n", Populacao2 / Area2);
+
+    printf("PIB Per Capita: R$ %2.f \n", Pib2 / Populacao2);
 
 
 
